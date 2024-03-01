@@ -1,0 +1,15 @@
+.windowPU {
+  background-color: rgb(209, 218, 255);
+  width: 100%;
+  height: 200px;
+  padding: 30px;
+}
+.wrapContent {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+/* .windowPU */

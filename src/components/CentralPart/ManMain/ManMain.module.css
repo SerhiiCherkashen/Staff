@@ -1,0 +1,31 @@
+.manMain {
+  background-color: rgb(209, 218, 255);
+}
+.wrapSelections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.wrapSelections img {
+  width: 100%;
+}
+.wrapCollection {
+  /* background-color: aqua; */
+  display: flex;
+}
+.oneCollection {
+  /* background-color: red; */
+  margin: 10px;
+}
+.wrapCollection img {
+  width: 100%;
+  /* width: 200px; */
+}
+.wrapDemoCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.wrapDemoCards img {
+  width: 100%;
+}

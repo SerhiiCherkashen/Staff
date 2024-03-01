@@ -1,0 +1,7 @@
+.bigImage {
+  background-color: rgb(209, 218, 255);
+}
+.bigImage img {
+  width: 100%;
+  height: auto;
+}
