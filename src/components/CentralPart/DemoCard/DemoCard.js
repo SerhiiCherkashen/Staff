@@ -6,15 +6,20 @@ const DemoCard = (props) => {
   return (
     <div className={demoCard.demoCard}>
       {/* <h1>DemoCard</h1> */}
+      {/* <div className={demoCard.asd}>a</div> */}
+      {element.discount !== 0 && (
+        <div className={demoCard.discount}>-{element.discount} %</div>
+      )}
+      <div className={demoCard.like}>a</div>
       <img src={element.image} />
-      <div>{element.name}</div>
+      <div className={demoCard.name}>{element.name}</div>
       <div>
         {element.sizes.map((el) => {
-          return <span style={{ marginLeft: "10px" }}>{el}</span>;
+          return <span className={demoCard.size}>{el}</span>;
         })}
       </div>
       {element.oldPrice === 0 ? (
-        <div> {element.newPrice} грн </div>
+        <div className={demoCard.moneyOne}> {element.newPrice} грн </div>
       ) : (
         <div>
           <span>{element.oldPrice} грн </span>

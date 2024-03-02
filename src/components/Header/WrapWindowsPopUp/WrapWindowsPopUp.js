@@ -1,5 +1,6 @@
 import React from "react";
 import wWPU from "./WrapWindowsPopUp.module.css";
+import header from "../Header.module.css";
 import { stateConst } from "../../../BusinesLogic/State/StateConst";
 import { Link } from "react-router-dom";
 import WindowPopUp from "../WindowPopUp/WindowPopUp";
@@ -22,8 +23,12 @@ const WrapWindowsPopUp = () => {
           {stateConst.header.man.map((element) => {
             if (element.popUp) {
               return (
-                <div className={wWPU.container} onMouseOver={handleMouseOver}>
-                  <div className={`  ${wWPU.trigger}  ${wWPU.link}`}>
+                <div
+                  // style={isOpen && { background: "blue" }}
+                  className={wWPU.container}
+                  onMouseOver={handleMouseOver}>
+                  <div
+                    className={`  ${wWPU.trigger}  ${header.link}   ${wWPU.link}  `}>
                     <Link
                       style={{ textDecoration: "none", color: "black" }}
                       to={element.path}>
@@ -39,7 +44,7 @@ const WrapWindowsPopUp = () => {
               );
             } else {
               return (
-                <div className={wWPU.link}>
+                <div className={header.link}>
                   <Link
                     style={{ textDecoration: "none", color: "black" }}
                     to={element.path}>
@@ -56,7 +61,8 @@ const WrapWindowsPopUp = () => {
             if (element.popUp) {
               return (
                 <div className={wWPU.container} onMouseOver={handleMouseOver}>
-                  <div className={`  ${wWPU.trigger}  ${wWPU.link}`}>
+                  <div
+                    className={`  ${wWPU.trigger}  ${header.link}   ${wWPU.link} `}>
                     <Link
                       style={{ textDecoration: "none", color: "black" }}
                       to={element.path}>

@@ -1,22 +1,23 @@
 .wrapWindowsPopUp {
   display: flex;
 }
-
 .link {
   /* background-color: yellow; */
-  font-size: 13px;
-  margin-right: 20px;
+  /* margin-right: 5px; */
+}
+.link :hover {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* padding: 10px; */
+  background-color: white;
 }
 
 .container {
-  /* background-color: red; */
-  /* padding: 20px; */
-  /* margin: 20px; */
 }
 .container :hover {
   background-color: #ffffff;
-  border-bottom: 1px solid black;
-  padding: 20px;
+  /* border-bottom: 1px solid black; */
+  /* padding: 20px; */
 }
 .popup {
   /* width: 1000px; */

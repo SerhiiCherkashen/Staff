@@ -1,0 +1,11 @@
+.mapProducts {
+  background-color: rgb(167, 181, 239);
+}
+.wrapDemoCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.wrapDemoCards img {
+  width: 100%;
+}

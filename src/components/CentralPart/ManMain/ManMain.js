@@ -4,10 +4,13 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import DemoCard from "../DemoCard/DemoCard";
 import { chooseCurrentProduct } from "../../../BusinesLogic/Redux/MainRedux";
+import MapProducts from "../UniversalComponent/components/MapProducts/MapProducts";
 
 const ManMain = () => {
   const dispatch = useDispatch();
-  const { name, currentGender } = useSelector((state) => state.mainReducer);
+  const { name, currentGender, arrayCurrentProductsForComponent } = useSelector(
+    (state) => state.mainReducer
+  );
   const testObject = {
     arr: [1, 2, 3],
     name: "John",
@@ -22,25 +25,6 @@ const ManMain = () => {
     },
     hobbies: ["reading", "hiking", "cooking"],
   };
-
-  // let fn = (obj) => {
-  //   console.log("Start");
-
-  //   for (const key in obj) {
-  //     if (typeof obj[key] === "object") {
-  //       console.log("obj[key] === 'object'");
-  //       fn(obj[key]);
-  //     } else if (Array.isArray(obj[key])) {
-  //       obj[key].forEach((element) => {
-  //         if (typeof element === "object") {
-  //           fn(element);
-  //         } else {
-  //           console.log("Element :", element);
-  //         }
-  //       });
-  //     }
-  //   }
-  // };
 
   function iterateObject(obj) {
     for (const key in obj) {
@@ -62,8 +46,6 @@ const ManMain = () => {
     }
   }
 
-  // fn(testObject);
-  // console.log("hyi : ", iterateObject(testObject));
   iterateObject(testObject);
 
   return (
@@ -91,19 +73,7 @@ const ManMain = () => {
           })}
         </div>
       )}
-      {/* <div className={main.wrapDemoCards}>
-        {currentGender.cloth.trousers.jeans.map((element) => {
-          return (
-            <div onClick={() => dispatch(chooseCurrentProduct(element.id))}>
-              <Link
-                style={{ textDecoration: "none", color: "black" }}
-                to="/oneProduct">
-                <DemoCard element={element} />
-              </Link>
-            </div>
-          );
-        })}
-      </div> */}
+      <MapProducts />
     </div>
   );
 };

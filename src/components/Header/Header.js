@@ -63,14 +63,14 @@ const Header = () => {
           <div className={header.rBottom}>
             <div className={header.link}>
               <Link
-                style={{ textDecoration: "none", color: "black" }}
+                style={{ textDecoration: "none", color: "red" }}
                 to={"/discounts"}>
                 Знижки
               </Link>
             </div>
             <div className={header.link}>
               <Link
-                style={{ textDecoration: "none", color: "black" }}
+                style={{ textDecoration: "none", color: "green" }}
                 to={"/new"}>
                 Новинки
               </Link>

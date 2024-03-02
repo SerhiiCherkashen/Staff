@@ -17,142 +17,156 @@ export const stateConst = {
         path: "/cloth",
         popUp: true,
         miniMenu: [
+          // path: "/universal",
+
           {
             name: "Верхнiй одяг",
+            route: ["cloth", "outerwear"],
           },
           {
             name: "Анораки",
+            route: ["cloth", "outerwear", "jackets"],
           },
           {
-            name: "Куртки",
+            name: "Jeens",
+            route: ["cloth", "trousers", "jeans"],
           },
           {
-            name: "Штани",
+            name: "autumnSpringParka",
+            route: ["cloth", "outerwear", "autumnSpringParka"],
+          },
+          {
+            name: "winterParka",
+            route: ["cloth", "outerwear", "winterParka"],
+          },
+          {
+            name: "winterJacket",
+            route: ["cloth", "outerwear", "winterJacket"],
           },
         ],
       },
-      {
-        name: "Взуття",
-        path: "/shoes",
-        popUp: true,
-        miniMenu: [
-          {
-            name: "Верхнiй одяг",
-          },
-          {
-            name: "Анораки",
-          },
-        ],
-      },
-      {
-        name: "Рюкзаки та сумки",
-        path: "/bags",
-        popUp: true,
-        miniMenu: [
-          {
-            name: "Верхнiй одяг",
-          },
-          {
-            name: "Анораки",
-          },
-          {
-            name: "Куртки",
-          },
-          {
-            name: "Штани",
-          },
-        ],
-      },
-      {
-        name: "Аксесуари",
-        path: "/accessories",
-        popUp: true,
-        miniMenu: [
-          {
-            name: "Верхнiй одяг",
-          },
-          {
-            name: "Анораки",
-          },
-          {
-            name: "Куртки",
-          },
-          {
-            name: "Штани",
-          },
-          {
-            name: "Анораки",
-          },
-          {
-            name: "Куртки",
-          },
-          {
-            name: "Штани",
-          },
-          {
-            name: "Анораки",
-          },
-          {
-            name: "Куртки",
-          },
-          {
-            name: "Штани",
-          },
-        ],
-      },
+      // {
+      //   name: "Взуття",
+      //   path: "/shoes",
+      //   popUp: true,
+      //   miniMenu: [
+      //     {
+      //       name: "Верхнiй одяг",
+      //     },
+      //     {
+      //       name: "Анораки",
+      //     },
+      //   ],
+      // },
+      // {
+      //   name: "Рюкзаки та сумки",
+      //   path: "/bags",
+      //   popUp: true,
+      //   miniMenu: [
+      //     {
+      //       name: "Верхнiй одяг",
+      //     },
+      //     {
+      //       name: "Анораки",
+      //     },
+      //     {
+      //       name: "Куртки",
+      //     },
+      //     {
+      //       name: "Штани",
+      //     },
+      //   ],
+      // },
+      // {
+      //   name: "Аксесуари",
+      //   path: "/accessories",
+      //   popUp: true,
+      //   miniMenu: [
+      //     {
+      //       name: "Верхнiй одяг",
+      //     },
+      //     {
+      //       name: "Анораки",
+      //     },
+      //     {
+      //       name: "Куртки",
+      //     },
+      //     {
+      //       name: "Штани",
+      //     },
+      //     {
+      //       name: "Анораки",
+      //     },
+      //     {
+      //       name: "Куртки",
+      //     },
+      //     {
+      //       name: "Штани",
+      //     },
+      //     {
+      //       name: "Анораки",
+      //     },
+      //     {
+      //       name: "Куртки",
+      //     },
+      //     {
+      //       name: "Штани",
+      //     },
+      //   ],
+      // },
     ],
     woman: [
-      {
-        name: "Одяг",
-        path: "/cloth",
-        popUp: true,
-        miniMenu: [
-          {
-            name: "Верхнiй одяг",
-          },
-          {
-            name: "Анораки",
-          },
-          {
-            name: "Куртки",
-          },
-          {
-            name: "Штани",
-          },
-        ],
-      },
-      {
-        name: "Взуття",
-        path: "/shoes",
-        popUp: true,
-        miniMenu: [
-          {
-            name: "Верхнiй одяг",
-          },
-          {
-            name: "Анораки",
-          },
-        ],
-      },
-      {
-        name: "Рюкзаки та сумки",
-        path: "/bags",
-        popUp: true,
-        miniMenu: [
-          {
-            name: "Верхнiй одяг",
-          },
-          {
-            name: "Анораки",
-          },
-          {
-            name: "Куртки",
-          },
-          {
-            name: "Штани",
-          },
-        ],
-      },
+      // {
+      //   name: "Одяг",
+      //   path: "/cloth",
+      //   popUp: true,
+      //   miniMenu: [
+      //     {
+      //       name: "Верхнiй одяг",
+      //     },
+      //     {
+      //       name: "Анораки",
+      //     },
+      //     {
+      //       name: "Куртки",
+      //     },
+      //     {
+      //       name: "Штани",
+      //     },
+      //   ],
+      // },
+      // {
+      //   name: "Взуття",
+      //   path: "/shoes",
+      //   popUp: true,
+      //   miniMenu: [
+      //     {
+      //       name: "Верхнiй одяг",
+      //     },
+      //     {
+      //       name: "Анораки",
+      //     },
+      //   ],
+      // },
+      // {
+      //   name: "Рюкзаки та сумки",
+      //   path: "/bags",
+      //   popUp: true,
+      //   miniMenu: [
+      //     {
+      //       name: "Верхнiй одяг",
+      //     },
+      //     {
+      //       name: "Анораки",
+      //     },
+      //     {
+      //       name: "Куртки",
+      //     },
+      //     {
+      //       name: "Штани",
+      //     },
+      //   ],
+      // },
     ],
   },
   products: {
@@ -175,14 +189,57 @@ export const stateConst = {
       },
       cloth: {
         outerwear: {
-          anorak: {},
-          jackets: {},
-          autumnSpringParka: {},
-          winterParka: {},
-          winterJacket: {},
+          jackets: [
+            {
+              id: "manClothTrousersJeans0",
+              discount: 0,
+              image:
+                "  https://static.staff-clothes.com/media/cache/image_product_desktop_catalog/image_product/0003/36/e7457363604c4f7db441ecf368eb4a34.jpeg",
+              name: "Анорак Staff lu black",
+              sizes: ["XS", "S", "M", "L", "XL", "XXL"],
+              oldPrice: 0,
+              newPrice: 1330,
+            },
+          ],
+          autumnSpringParka: [
+            {
+              id: "manClothTrousersJeans0",
+              discount: 20,
+              image:
+                "  https://static.staff-clothes.com/media/cache/image_product_desktop_catalog/image_product/0003/36/e7457363604c4f7db441ecf368eb4a34.jpeg",
+              name: "Анорак Staff lu black",
+              sizes: ["XS", "S", "M", "L", "XL", "XXL"],
+              oldPrice: 0,
+              newPrice: 1330,
+            },
+          ],
+          winterParka: [
+            {
+              id: "manClothTrousersJeans0",
+              discount: 0,
+              image:
+                "  https://static.staff-clothes.com/media/cache/image_product_desktop_catalog/image_product/0003/36/e7457363604c4f7db441ecf368eb4a34.jpeg",
+              name: "Анорак Staff lu black",
+              sizes: ["XS", "S", "M", "L", "XL", "XXL"],
+              oldPrice: 0,
+              newPrice: 1330,
+            },
+          ],
+          winterJacket: [
+            {
+              id: "manClothTrousersJeans0",
+              discount: 0,
+              image:
+                "  https://static.staff-clothes.com/media/cache/image_product_desktop_catalog/image_product/0003/36/e7457363604c4f7db441ecf368eb4a34.jpeg",
+              name: "Анорак Staff lu black",
+              sizes: ["XS", "S", "M", "L", "XL", "XXL"],
+              oldPrice: 0,
+              newPrice: 1330,
+            },
+          ],
         },
-        sweatshirt: {},
-        shirt: {},
+        sweatshirt: [],
+        shirt: [],
         trousers: {
           jeans: [
             {
@@ -236,10 +293,10 @@ export const stateConst = {
           sportTrousers: {},
           kargo: {},
         },
-        sportSuit: {},
-        tShirtPolo: {},
-        shorts: {},
-        underwear: {},
+        sportSuit: [],
+        tShirtPolo: [],
+        shorts: [],
+        underwear: [],
       },
       shoes: {
         winterShoes: {},

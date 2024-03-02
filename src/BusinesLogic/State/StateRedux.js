@@ -7,5 +7,6 @@ export const stateRedux = {
   name: "hyi",
   gender: "man",
   currentGender: stateConst.products.man,
+  arrayCurrentProductsForComponent: {},
   // stateConst.products.man,
 };

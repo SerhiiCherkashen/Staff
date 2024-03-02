@@ -1,0 +1,11 @@
+.manMain {
+  background-color: rgb(209, 218, 255);
+}
+.wrapMapProducts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.wrapMapProducts img {
+  width: 100%;
+}
